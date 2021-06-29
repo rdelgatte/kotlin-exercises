@@ -1,4 +1,5 @@
 # Reversible numbers
+
 How many reversible numbers are there below one-billion?
 
 Some positive integers n have the property that the sum [ n + reverse(n) ] consists entirely of odd (decimal) digits. For instance, 36 + 63 = 99 and 409 + 904 = 1313. We will call such numbers reversible; so 36, 63, 409, and 904 are reversible. Leading zeroes are not allowed in either n or reverse(n).
@@ -7,9 +8,13 @@ Some positive integers n have the property that the sum [ n + reverse(n) ] consi
 
 ## To-do
 
-You can start coding in src/reversible.ts and tests/reversible.spec.ts files that are already created
-Prerequisites: gradle
-Run tests: gradle test
+You can use the existing files to start solving the exercice:
+
+- Unit tests can be written in [`src/test/kotlin/ReversibleNumbersTest.kt`](src/test/kotlin/ReversibleNumbersTest.kt)
+- Property based tests can be written in [`src/test/kotlin/ReversibleNumbersPropertyBasedTest.kt`](src/test/kotlin/ReversibleNumbersPropertyBasedTest.kt) (if you are familiar with them)
+- The code implementation can be written in [`src/main/kotlin/ReversibleNumbers.kt`](src/main/kotlin/ReversibleNumbers.kt)
+
+Run tests: `gradle test`
 
 ## Solution
 
